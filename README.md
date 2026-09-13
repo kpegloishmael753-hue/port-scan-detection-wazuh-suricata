@@ -4,6 +4,7 @@ Simulated SYN scan on single-laptop lab (loopback 127.0.0.1).
 Pipeline:nmap > tcpdump > suricata (SID 1000001)>wazuh dashboard rule (86601)
 
 ## Proof
+
   ![nmap scan](nmap-scan.jpg)
 - Wazuh Dashboard (SIEM alert)
   ![wazuh dashboard](wazuh-dashboard%20.JPG)
