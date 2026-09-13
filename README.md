@@ -8,6 +8,12 @@ Pipeline:nmap > tcpdump > suricata (SID 1000001)>wazuh dashboard rule (86601)
 - eve.json logs signature_id 1000001
 - suricata alerts displayed on wazuh live
 
+![nmap scan](nmap-scan.jpg)
+![tcpdump syn](tcpdump-syn.JPG)
+![tcpdump rst-ack](tcpdump-rst-ack.JPG)
+![eve json](eve-json.JPG)
+![wazuh dashboard](wazuh-dashboard%20.JPG)
+
 ## Files 
 - rules/ - local.rules custom SIDs
 - pcap/ - scan capture
